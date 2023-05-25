@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container{
+  padding: 5px 20px;
+  border: 2px dashed;
+  width: 450px;
+}
+input[type="text"]{
+  padding: 3px 20px;
+}
+
+.input_field{
+  padding: 15px 0px;
+}
+button{
+  background-color: #000;
+  padding: 4px 20px;
+  color: #fff;
+  margin-left: 5px;
+  transition: .4s;
+  border: none;
+}
+button:hover{
+  background-color: gray;
+}
+
+#fileUpload {
+  display: none;
+}
+a.btn.btn-primary{
+  background: #875f29;
+  padding: 8px 35px;
+  color: #fff;
+  border-radius: 5px;
+  transition: .4s;
+  cursor: pointer;
+}
+.progress_bar{
+  width: 651px;
+  margin:0 auto;
+}
+.progress{
+  margin-bottom: 10px;
+}
